@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block styles %}
+<link type="text/css" rel="stylesheet" href="/static/css/chat.css" />
+{% endblock %}
+
+{% block content %}
+<div class="container chat-content">
+  <div class="row">
+    <div class="col">
+      <h1 style="font-family: 'Cormorant'; color: #3e1290;";>Create a Chat Room</h1>
+      <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p style="font-family: 'Cormorant'; color: #3e1290;">
+          {{ form.chatroom_name.label }}<br>
+          {{ form.chatroom_name(size=32) }}
+        </p>
+        <p>
+          {{ form.submit() }}
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

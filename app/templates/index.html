@@ -1,0 +1,230 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  {{ title }}
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="/static/js/parallax.min.js"></script>
+{% endblock %}
+
+{% block styles %}
+<link type="text/css" rel="stylesheet" href="/static/css/index.css" />
+<link type="text/css" rel="stylesheet" href="/static/css/image-overlay.css" />
+{% endblock %}
+
+{% block content %}
+
+<div class="row" style="background-color: #d8e5d9;" >
+  <div class="col hero-section justify-content-center align-items-middle">
+    <div class="hero-section" style="background: none;">
+      <div class="parallax-window" data-parallax="scroll" data-image-src="/static/img/tasman.png" style="height: 100%;"
+        data-z-index="-1">
+      </div>
+      <div class="text-overlay">
+        <h1 style="font-family: 'Cormorant'; text-align: left; font-size: 96px; color: #3e1290;">  My Website.</h1>
+        <h1 style="font-family: 'Cormorant'; text-align: left; font-size: 48px; color: #3e1290;">  I Build Stuff.</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mask-bg" style="background-color: #d8e5d9;" >
+  <div class="row hero-under-banner">
+    <div class="col"  style="color: #3e1290;">
+      <div class="container" style="max-width: 3000px;">
+        <div class="row align-items-center mobile-pad" style="min-height: 40px; background-color: #3e1290;">
+          <div class="col-sm-4 text-pad" style="color: #d8e5d9; font-family: 'Cabin';">
+            Leah Uriarte
+          </div>
+          <div class="col-sm-4 text-pad" style="color: #d8e5d9; font-family: 'Cabin';">
+            leahu257@gmail.com
+          </div>
+          <div class="col-sm-4 text-pad" style="color: #d8e5d9; font-family: 'Cabin';">
+            Bay Area
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container page-content-container" style="margin-top: 40px;">
+    <div class="row">
+      <div class="col blurb-section" style="color: #3e1290; font-family: 'Cabin'; text-align: left;">
+        <p >I'm a student passionate about the musical fantasy film Cats</p>
+        <p > Creating stuff that is potentially interesting to you.</p>
+        <p >Intrigued by design, photography, coding, and always learning more.</p>
+        <p>Check out what I've done.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container page-content-container" style="margin-top: 30px;">
+    <div class="row">
+      <div class="col section-header" style="font-size: 48px;">
+        Extracurricular Activities
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col">
+
+        <!-- Project 1 -->
+        <div class="container section-content">
+          <div class="row">
+            <div class="col section-content-header" >
+              Robotics
+            </div>
+          </div>
+          <div class="row">
+            <div class="col time-span">
+              Aug 2020 - Present
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="container section-content">
+          <div class="row">
+            <div class="col section-content-header">
+               Lynbrook Interact
+            </div>
+          </div>
+          <div class="row">
+            <div class="col time-span">
+              Aug 2020 - Present
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container page-content-container" style="margin-top: 20px; background-color: #d8e5d9; ">
+    <div class="row">
+      <div class="col section-header" style="font-size: 48px;">
+        Awards / Honors / Certifications
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col">
+
+        <!-- Project 1 -->
+        <div class="container section-content">
+
+          <div class="row">
+            <div class="col section-content-header">
+              Certificate of Outstanding Achievement - AMC 8
+            </div>
+          </div>
+          <div class="row">
+            <div class="col time-span award-space-bottom">
+              Mathematical Association of America
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col section-content-header">
+              Honor Roll
+            </div>
+          </div>
+          <div class="row">
+            <div class="col time-span award-space-bottom">
+              Warren E Hyde School
+            </div>
+          </div>
+<!--
+          <div class="row">
+            <div class="col section-content-header">
+              Honor
+            </div>
+          </div>
+          <div class="row">
+            <div class="col time-span award-space-bottom">
+              Here's what I did
+            </div>
+          </div>
+-->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 100px;">
+    <div class="col-lg-4">
+      <div class="overlay-container">
+        <div class="overlay-content">
+          <div class="content-overlay"></div>
+          <div class="overlay-content-image-container">
+            <img class="overlay-content-image" src="/static/img/cat22.png">
+          </div>
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Cat</h3>
+            <p class="content-text">❤</p>
+          </div>
+        </div>
+      </div>
+      <div class="interest-img-holder">
+        <img src="/static/img/interest-1.jpg">
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="overlay-container">
+        <div class="overlay-content">
+          <div class="content-overlay"></div>
+          <div class="overlay-content-image-container">
+            <img class="overlay-content-image" src="/static/img/cat333.png">
+          </div>
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Cat</h3>/h>
+            <p class="content-text"> ❤ </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="overlay-container">
+        <div class="overlay-content">
+          <div class="content-overlay"></div>
+          <div class="overlay-content-image-container">
+            <img class="overlay-content-image" src="/static/img/cat11.png">
+          </div>
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Cat</h3>
+            <p class="content-text">❤</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+{% endblock %}
+
+{% block footer %}
+<div class="footer-container" style="background-color: #d8e5d9;">
+  <div class="container page-content-container" style="font-family: 'Cormorant'; color: #3e1290 ">
+    <div class="row">
+      <div class="col-sm-6 contact-me-text" style="font-family: 'Cormorant'; color: #3e1290 ">
+        Contact Me
+      </div>
+      <div class="col-sm-6 contact-icons">
+        <div >
+          <img src="/static/img/contact-icons/gmail.png">
+          <span class="contact-info" style="font-family: 'Cabin'; color: #3e1290 ">leahguriarte@gmail.com</span>
+        </div>
+        <div>
+          <a href="https://github.com/">
+            <img src="/static/img/contact-icons/github.png">
+            <span class="contact-info" style="font-family: 'Cabin'; color: #3e1290 " >github.com/leahuriarte</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
